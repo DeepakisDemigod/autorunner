@@ -23,7 +23,16 @@ body {
 #js {
   background: #7E81FF;
   color: black;
+  padding: 20px 10px;
+  border-radius: 5px;
 }
+
+#html,
+#css,
+#js:active {
+  transform: scale(1.05);
+}
+
 
 #editor {
    display: flex;
