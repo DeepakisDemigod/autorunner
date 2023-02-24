@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 10px;
-  background: rgba(21,31,48, 0.7);
+  background: rgba(21,31,48, 0.3);
 }
 
 #editor {
