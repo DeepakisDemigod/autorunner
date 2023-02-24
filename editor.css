@@ -16,6 +16,11 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 10px;
+}
+
+#html,
+#css,
+#js {
   background: #7E81FF;
   color: black;
 }
