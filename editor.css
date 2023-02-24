@@ -40,8 +40,14 @@ body {
 }
 
 
-#html,
-#css,
+#html:active {
+  transform: scale(1.05);
+}
+
+#css:active {
+  transform: scale(1.05);
+}
+
 #js:active {
   transform: scale(1.05);
 }
