@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+body {
+  background: #151f30;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tab {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+
+#editor {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+}
+
+textarea {
+  font-family: 'Fragment Mono', Monospace;
+}
+
+#html-code,
+#css-code,
+#js-code {
+  background: #151f35;
+  color: white;
+  height: 700px;
+  padding: 0px 0px 0px 5px;
+  margin: 5px 6px;
+  resize: none;
+  height: 95vh;
+  font-size: 14px;
+}
+
+
+#html-code:focus {
+  outline: 1px solid orange;
+}
+
+#css-code:focus {
+  outline: 1px solid royalblue;
+}
+
+#js-code:focus {
+  outline: 1px solid yellow;
+}
+
+nav header {
+  padding: 10px;
+  font-size: 19px;
+  font-family: "Fragment-Mono", Monospace;
+  text-align: center;
+}
+
+#result {
+  width: 100vw;
+}
+
+
+
+#output {
+  text-align: center;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: white;
+  color: black;
+  height: 100vh;
+  margin: 8px;
+}
+
+
+
+

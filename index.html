@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="editor.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <header>
+       AutoRunner
+      </header>
+    </nav>
+    <div id="tab">
+      <div id="html">
+        index.html
+      </div>
+      <div id="css">
+        style.css
+      </div>
+      <div id="js">
+        script.js
+      </div>
+    </div>
+    <div class="editor">
+      <textarea id="html-code" placeholder="html" onkeyup="run()"></textarea>
+      <textarea id="css-code" placeholder="css" onkeyup="run()"></textarea>
+      <textarea id="js-code" placeholder="js" onkeyup="run()"></textarea>
+    </div>
+    <div id="result">
+      <iframe id="output"></iframe>
+    </div>
+    <script src="editor.js"></script>
+    <script src="tab.js"></script>
+  </body>
+</html>
+
