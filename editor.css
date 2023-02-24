@@ -16,7 +16,8 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 10px;
-  background: rgba(21,31,48, 0.3);
+  background: #7E81FF;
+  color: black;
 }
 
 #editor {
