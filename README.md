@@ -2,7 +2,7 @@
 
 Best Portble HTML, CSS and JS Editor
 
-🛑 Hosted By Github Pages
+🛑 Hosted With Github Pages
  https://deepakisdemigod.github.io/autorunner/
 
 # v1.0.0 Friday, 23 February 2023
