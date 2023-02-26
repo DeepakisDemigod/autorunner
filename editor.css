@@ -11,6 +11,18 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+#nav {
+  display: flex;
+}
+
+#run-btn {
+  width: 15px;
+  height: 10px;
+  background: limegreen;
+  color: white;
+  border-radius: 4px;
+}
+
 #tab {
   width: 100%;
   display: flex;
