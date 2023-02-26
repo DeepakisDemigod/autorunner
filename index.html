@@ -24,9 +24,9 @@
       </div>
     </div>
     <div class="editor">
-      <textarea id="html-code" placeholder="html" onkeyup="run()"></textarea>
-      <textarea id="css-code" placeholder="css" onkeyup="run()"></textarea>
-      <textarea id="js-code" placeholder="js" onkeyup="run()"></textarea>
+      <textarea id="html-code" placeholder="html" onkeyup="runAndSave()"></textarea>
+      <textarea id="css-code" placeholder="css" onkeyup="runAndSave()"></textarea>
+      <textarea id="js-code" placeholder="js" onkeyup="runAndSave()"></textarea>
     </div>
     <div id="result">
       <iframe id="output"></iframe>
@@ -34,6 +34,12 @@
     <script src="editor.js"></script>
     <script src="local-storage.js"></script>
     <script src="tab.js"></script>
+    <script>
+      function runAndSave() {
+        run()
+        addToLocalStorage()
+      }
+    </script>
   </body>
 </html>
 
