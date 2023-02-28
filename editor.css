@@ -44,7 +44,7 @@ body {
 }
 
 #html:hover {
-  background: #6495ED21;
+  background: rgba(100, 149, 237, 0.12941176470588237);
 }
 
 #css {
@@ -56,7 +56,7 @@ body {
 }
 
 #css:hover {
-  background: #6495ED21;
+  background: rgba(100, 149, 237, 0.12941176470588237);
 }
 
 #js {
@@ -68,7 +68,7 @@ body {
 }
 
 #js:hover {
-  background: #6495ED21;
+  background: rgba(100, 149, 237, 0.12941176470588237);
 }
 
 
