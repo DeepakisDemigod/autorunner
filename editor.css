@@ -11,58 +11,52 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-#nav {
+#run-btn {
+  width: 20px;
+  background-color: royalblue;
+  color: white;
+  border-radius: 3px;
+  padding: 7px 18px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: medium;
+  font-family: 'Fragment-Mono', Monospace;
 }
 
-#run-btn {
-  width: 15px;
-  height: 10px;
-  background: limegreen;
-  color: white;
-  border-radius: 4px;
-  padding: 7px 9px;
+#run-btn:active {
+  background: dodgerblue;
 }
 
 #tab {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  text-align: center;
   padding: 10px;
 }
 
 #html {
-  background: #7E81FF;
+  flex: 3.3;
+  background: none;
   color: white;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-bottom: 1.5px solid royalblue;
 }
 
 #css {
-  background: #7E81FF;
+  flex: 3.3;
+  background: none;
   color: white;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-bottom: 1.5px solid royalblue;
 }
 
 #js {
-  background: #7E81FF;
+  flex: 3.3;
+  background: none;
   color: white;
   padding: 5px 10px;
-  border-radius: 5px;
-}
-
-
-#html:active {
-  transform: scale(1.05);
-}
-
-#css:active {
-  transform: scale(1.05);
-}
-
-#js:active {
-  transform: scale(1.05);
+  border-bottom: 1.5px solid royalblue;
 }
 
 
@@ -75,6 +69,7 @@ body {
 
 textarea {
   font-family: 'Fragment Mono', Monospace;
+  border: none;
 }
 
 #html-code,
@@ -103,12 +98,24 @@ textarea {
   outline: none;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20px;
+  padding: 15px 5px 5px 5px;
+}
+
 nav header {
+  display: flex;
   padding: 10px;
   font-size: 19px;
   font-family: "Fragment-Mono", Monospace;
-  text-align: center;
+  color: cornflowerblue;
+  font-weight: bold;
 }
+
+
 
 #result {
   width: 100vw;
