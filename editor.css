@@ -43,6 +43,10 @@ body {
   border-bottom: 1.5px solid royalblue;
 }
 
+#html:hover {
+  background: #6495ED21;
+}
+
 #css {
   flex: 3.3;
   background: none;
@@ -51,12 +55,20 @@ body {
   border-bottom: 1.5px solid royalblue;
 }
 
+#css:hover {
+  background: #6495ED21;
+}
+
 #js {
   flex: 3.3;
   background: none;
   color: white;
   padding: 5px 10px;
   border-bottom: 1.5px solid royalblue;
+}
+
+#js:hover {
+  background: #6495ED21;
 }
 
 
@@ -75,10 +87,10 @@ textarea {
 #html-code,
 #css-code,
 #js-code {
-  background: #151f35;
+  background: #233045;
   color: white;
   height: 700px;
-  padding: 0px 0px 0px 5px;
+  padding: 7px 0px 0px 5px;
   margin: 5px 6px;
   resize: none;
   height: 95vh;
